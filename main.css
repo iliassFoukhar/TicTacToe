@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/*
+font-family: 'Press Start 2P', cursive;
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+#0c0c0c
+
+NES COLORS
+#828282  grey
+#FF3C28 orange
+#0AB9E6 skyblue
+#FAA005 gold
+#E10F00 red
+#8400E6 purple
+#1EDC00 green
+#FF3278 pink
+*/
+body{
+  font-family : 'Press Start 2P', cursive;
+  background-color :#8400E6;
+  color : white;
+  margin  : 0;
+}
+
+#title{
+  font-size : 2.25rem;
+  margin-top : 5%;
+  margin-bottom : 10%;
+  text-shadow: 1px 1px 1px black;
+
+}
+.menu{
+  list-style: none;
+  background-color: white;
+  margin : 0 25%;
+  padding : 30px 0;
+  border : solid 0.7rem #FF3278;
+  border-radius: 10px;
+  align-items:  center;
+  justify-content: center;
+}
+ 
+.itemMenu a{
+  text-decoration: none;
+  color : black;
+  font-size : 1.25rem;
+}
+.itemMenu a:hover{
+  color : #FF3278;
+}
+.itemMenu .hide{
+  overflow: hidden;
+  color : white;
+}
+
+.itemMenu .hide:hover{
+  color : #FF3278;
+}
+.xoTable{
+  border : solid 0.4rem #FF3278;
+  background-color: white;
+  border-radius: 10px;
+  position : relative;
+  bottom : 10px;
+}
+
+.xoTable td{
+  border : solid 0.4rem #FF3278;
+  padding : 2rem;
+  color : black;
+  font-size : 2rem;
+  cursor: pointer;
+}
+.xoTable td.empty:hover{
+  background-color : gold;
+}
+.turn{
+  color : white;
+  text-shadow : 1px 1px 1px black;
+  background-color : #0AB9E6;
+  padding : 0.5rem;
+  margin : 1rem 33%;
+  position : relative;
+   bottom : 1rem;
+     border-radius: 10px;
+     border : white solid 2px;
+}
+.repeat{
+  position : absolute;
+  left : 50%;
+  transform: translateX(-50%);
+  background-color : #0AA005;
+  color : white;
+  text-shadow: 1px 1px 1px black;
+  font-family:  inherit;
+  font-size : 0.85rem;
+  padding : 0.5rem 0.75rem;
+  border-radius : 5px;
+  border : white 2px solid;
+  cursor: pointer;
+  margin-top : 0.25rem;
+  transition : 0.1s;
+  display : none;
+}
+.repeat:hover{
+  background-color : #0a5e05;
+  transition : 0.1s;
+}

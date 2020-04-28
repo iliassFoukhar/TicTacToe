@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Tic Tac Toe</title>
+  <meta name="author" content="Iliass Foukhar">
+  <meta name="description" content ="X/O">
+  <meta name="keywords" content="X,O,Tic,Tac,Toe">
+  <link href="main.css" type="text/css" rel="stylesheet">
+  <script type="text/javascript">
+  var anchors = document.getElementsByClassName("itemMenu");
+  var hides = document.getElementsByClassName("hide");
+  for(let i = 0; i<3;i++){
+    anchors[i].onmouseover = function(){
+      //hides[i].style.color = "#FF3278";
+      console.log("hh");
+    }
+    anchors[i].onmouseout = function(){
+      //hides[i].style.color = "white";
+      console.log("hhhh");
+    }
+  }
+
+  </script>
+</head>
+<body>
+  <h3 id="title" align="center">Tic Tac Toe</h3>
+    <ul class="menu" align="center">
+      <li class="itemMenu"><a href="1p.html" class="anchors"> <span class="hide"> > </span>  1  Player&nbsp</a></li>
+      <li class="itemMenu"><a href="2p.html" class="anchors"><span class="hide"> > </span> 2  Players</a></li>
+      <li class="itemMenu"><a href="credits.html" class="anchors"><span class="hide"> > </span> Credits &nbsp</a></li>
+    </ul>
+</body>
+</html>
